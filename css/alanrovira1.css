@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans';
+}
+/* BACKGROUND COLOR NAVBAR */
+header{
+    background-color: #33ccc5;
+}
+
+/* HOVER ON NAVBAR */
+.hover:hover{
+    color: #4771cb!important;
+    
+}
+
+/* SPAN SECTION 3 */
+.pepe{
+    color: #4771cb!important;
+}
+/* SPAN SECTION 3 */
+.pepe1{
+    color: #33ccc5!important;
+}
+
+/* BACKGROUND IMAGE FIRST SECTION */
+.fondoo{
+    height: 700px;
+    background-image: url("../img/banner-right.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+/* BACKGROUND IMAGE FIRST SECTION */
+.fondoo2{
+    height: 1000px;
+    width: 100%;
+    background-image: url("../img/banner-left.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+/* BUTTON COLOR */
+.btn{
+    background-color: #33ccc5;
+}
+/* BUTTON COLOR ON HOVER*/
+.btn:hover{
+    background-color: #4771cb;
+}
+
+
+

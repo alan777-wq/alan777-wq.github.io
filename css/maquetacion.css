@@ -9,9 +9,10 @@ h1 {
     font-size: 4em;
 }
 
-/* #image{
+#image{
     width: 70%;
-} */
+    object-fit: cover;
+} 
 
 .font {
     font-family: 'Playfair';
@@ -44,7 +45,7 @@ h4 {
 }
 
 .fondo {
-    background-color: #FFFDC1;
+    background-color: #7ED1C1;
 }
 
 /* @media (max-width: 1300px){
@@ -65,7 +66,7 @@ h4 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #138D75;
+    background-color: #001612;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -145,4 +146,13 @@ h4 {
 .button-3:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+#skills:focus {     
+    background-color: #0F6655;
+}
+
+#exp:focus {     
+    background-color: #0F6655;
 }
